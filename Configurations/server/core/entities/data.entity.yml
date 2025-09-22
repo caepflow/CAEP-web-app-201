@@ -1,0 +1,15 @@
+id: 3b4abe81-5c6f-4639-bdce-aed21efbd326
+type: entity
+name: DataEntity
+description: Example of a database entity
+useRepository: true
+fields:
+- name: name
+  type: string
+  description: Product name
+- name: description
+  type: string
+  description: Product description
+- name: price
+  type: float
+  description: Product price

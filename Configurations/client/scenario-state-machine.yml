@@ -1,0 +1,14 @@
+id: dbced096-ac87-40b6-8b26-3867dbb591ec
+name: ScenarioStateMachine
+type: scenario-states
+description: Example of a state machine for the scenario
+scenario: a1ec21ac-916a-4c71-a78e-3c48f5d88212
+states:
+- name: start
+  id: e34e6e5f-aa4a-5416-a2e6-e4ae2ea48a85
+- name: browse
+  id: f3faa71e-a7cf-5e66-81e6-e813d8d55bd3
+transitions:
+- from: e34e6e5f-aa4a-5416-a2e6-e4ae2ea48a85
+  to: f3faa71e-a7cf-5e66-81e6-e813d8d55bd3
+  id: 7acfaa58-9e70-50da-a55b-7eb30d8cc9fd
