@@ -4,4 +4,11 @@ type: gateway
 description: Gateway
 port: 10000
 services:
-- service: 57d2b238-ee7f-5408-acd4-33bbb80e60bc
+  - service: 57d2b238-ee7f-5408-acd4-33bbb80e60bc
+annotations:
+  - namespace: c4modeler
+    name: position
+    value:
+      container:
+        x: 388
+        y: 374

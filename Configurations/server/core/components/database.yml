@@ -3,3 +3,10 @@ type: database
 provider: sqlserver
 name: Database
 description: Example of database with SQL Server as provider
+annotations:
+  - namespace: c4modeler
+    name: position
+    value:
+      container:
+        x: 139
+        y: 374
