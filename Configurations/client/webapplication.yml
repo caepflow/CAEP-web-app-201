@@ -20,3 +20,4 @@ annotations:
       container:
         x: 637
         y: 374
+strict: false
